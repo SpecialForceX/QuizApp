@@ -1,0 +1,126 @@
+body {
+    height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 90%;
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 32px !important;
+}
+
+.card-body {
+    font-size: 16px;
+
+}
+
+.main-card {
+    width: 800px;
+    height: 450px;
+}
+
+.letter-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-right: 32px
+}
+
+.letter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.card-body-answers {
+    display: flex;
+    align-items: center;
+    
+}
+
+.section-left {
+    background-color: #292863;
+    border-radius: 8px 0 0 8px;
+    height: 450px;
+}
+
+.img-pos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.img-fluid {
+    width: 81px;
+    height: 81px;
+}
+
+.quiz_answer_card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
+
+.play_button {
+    filter: invert();
+    width: 32px;
+    height: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.play_button_pos {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.btn {
+    border-width: 0 !important;
+}
+
+.img-res-pos {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.img-res {
+    width: 112px;
+    height: 112px;
+    margin-bottom: 16px;
+}
+
+.complete-txt {
+    text-align: center;
+    font-size: 18px;
+}
+
+.score-txt {
+    text-align: center;
+    font-size: 22px;
+    color: #edb007;
+}
+
+.rep-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.progress-bar {
+    background-color: #292863 !important;
+}
